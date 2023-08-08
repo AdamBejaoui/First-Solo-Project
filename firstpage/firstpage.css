@@ -1,0 +1,114 @@
+
+.logo {
+    display: flex;
+    position: left;
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+    justify-content: left;
+
+}
+
+.navbar-container {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    border-top: 1px solid #ffffff;
+    position: relative;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background:url('');
+}
+.navbar{
+    text-transform: capitalize;
+    padding: 0 10px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #ffffff;
+;
+    transition: .5s;
+}
+
+
+#img {
+    float: right;
+    width: 500px;
+    height: 300px;
+    margin-top: 50px; 
+    margin-right: 30px;
+    transition: 0.15s;
+}
+.discription {
+    font-size: 40px;
+    color: aliceblue;
+    display: flex;
+    align-items:self-start;
+    
+}
+body {
+    height: 100vh;
+    background: url('https://wallpaperaccess.com/full/670445.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    padding: 0 5%;
+    background-attachment:fixed;
+}
+
+
+
+
+.contacts {
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.contacts a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    font-size: 20px;
+    color: rgb(255, 236, 255);
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.shop {
+    position: absolute;
+    top: 15px;
+    right: 50px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: right;
+    
+}
+.shop a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    font-size: 20px;
+    color: rgb(255, 236, 255);
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+
